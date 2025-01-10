@@ -105,7 +105,7 @@ const CardComponent = () => {
                     <li key={idx}>{feature}</li>
                   ))}
                 </ul>
-                <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded w-full hover:bg-blue-700">
+                <button className="mt-4 bg-orange-500 text-white px-4 py-2 rounded w-full hover:bg-orange-700">
                   Get Price Estimate Now
                 </button>
               </div>
