@@ -3,7 +3,7 @@ import video from "../Assets/video.mp4";
 import DetailsForm from"../Component/TopForm/detailsForm.js";
 const HearingAidTrial = () => {
   return (
-    <div className="bg-gray-50 min-h-screen flex items-center justify-center py-8 px-4">
+    <div className="bg-gray-50 min-h-screen flex items-center justify-center py-8 px-4 -mt-7">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Section */}
         <div className="flex-1">
