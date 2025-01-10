@@ -1,0 +1,47 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Component Imports
+import HearingAidTrial from "./Component/HearingAidTrial";
+import SpecialCTA from "./Component/SpecialCTA";
+import FeaturesSection from "./Component/featuresection";
+import CardComponent from "./Component/CardComponent";
+import WhyHear from "./Component/WhyHear";
+import AllRate from "./Component/AllRate";
+import CustomerReviews from "./Component/CustomerReviews";
+import FormPage from "./Component/CTA form/formpage";
+import ThankYouForm from "./Component/CTA form/thankyouform";
+import Navbar from "./Component/CTA form/navbar";
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        {/* Home Page Route */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar/>
+              <HearingAidTrial />
+              <SpecialCTA />
+              <FeaturesSection />
+              <CardComponent />
+              <WhyHear />
+              <AllRate />
+              <CustomerReviews />
+              <SpecialCTA />
+            </>
+          }
+        />
+
+        {/* Form Page Route */}
+        <Route path="/form" element={<FormPage />} />
+
+        {/* Thank You Page Route */}
+        <Route path="/thank-you" element={<ThankYouForm />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
