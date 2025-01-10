@@ -43,7 +43,7 @@ const HearingAidTrial = () => {
         <div className="flex-1 bg-white rounded-lg shadow-lg p-8">
           <DetailsForm></DetailsForm>
           <p className="text-xs text-center text-gray-500 mt-4">
-            By proceeding, you are authorizing hear.com to contact you via
+            By proceeding, you are authorizing us to contact you via
             WhatsApp, SMS, RCS & Email for providing consultation, updates, and
             sharing relevant product information & offers. You also agree to
             our T&C and Privacy Policy.
