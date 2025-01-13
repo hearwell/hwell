@@ -12,6 +12,7 @@ import CustomerReviews from "./Component/CustomerReviews";
 import FormPage from "./Component/CTA form/formpage";
 import ThankYouForm from "./Component/CTA form/thankyouform";
 import Navbar from "./Component/CTA form/navbar";
+import Phonak from "./Phonak/Phonak";
 const App = () => {
   return (
     <Router>
@@ -39,6 +40,7 @@ const App = () => {
 
         {/* Thank You Page Route */}
         <Route path="/thank-you" element={<ThankYouForm />} />
+        <Route path="/Phonak" element={<Phonak />} />
       </Routes>
     </Router>
   );
