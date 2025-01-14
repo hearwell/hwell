@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-28 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img
-              src={img} // Replace with the actual path to your logo
+              src="https://offers.hearwellhearing.in/wp-content/uploads/2024/11/logo-1-pdf.jpg.webp" // Replace with the actual path to your logo
               alt="Logo"
               className="h-8"
             />
@@ -19,9 +19,9 @@ const Navbar = () => {
           </div>
           <button
             className="bg-orange-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-orange-600 transition"
-            onClick={() => (window.location.href = "tel:+919955022067")} // Directing to the phone number
+            onClick={() => (window.location.href = "tel:+918556086888")} // Directing to the phone number
           >
-            Contact Us
+            8556086888
           </button>
         </div>
       </nav>
