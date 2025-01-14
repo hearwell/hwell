@@ -15,7 +15,7 @@ const AllRate = () => {
       <RatingCard
         platform="Trustpilot"
         rating="4.3"
-        icon="https://upload.wikimedia.org/wikipedia/commons/6/6e/Trustpilot_logo.svg"
+        icon="https://cdn.worldvectorlogo.com/logos/trustpilot-1.svg"
         additionalInfo={
           <p className="text-green-500 text-xl flex justify-center md:justify-start gap-1">
             ★★★★☆
